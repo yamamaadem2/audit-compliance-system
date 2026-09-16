@@ -1,0 +1,31 @@
+# --- Python / Backend ---
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.env
+*.egg-info/
+.pytest_cache/
+instance/
+
+# --- Node / Frontend ---
+node_modules/
+dist/
+.env.local
+.env.*.local
+npm-debug.log*
+
+# --- Database ---
+*.sqlite3
+*.db
+
+# --- OS / Editor ---
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
+# --- Secrets (never commit these) ---
+*.pem
+*.key
+secrets.json
